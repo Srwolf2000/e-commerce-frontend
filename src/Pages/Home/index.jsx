@@ -48,7 +48,7 @@ function Home() {
         onChange={(event) => {  context.setSearchByTitle(event.target.value);}}
         value={getInputValue()}
       />
-      <section className='grid gap-4 grid-cols-4 w-full max-w-screen-lg'>
+      <section className='grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 w-full max-w-screen-lg justify-items-center'>
         {
           render()
         }
